@@ -82,6 +82,13 @@ header ul li ul li a{
 /*
     SLIDER
 */
+.reinvent{
+    color: #e7e7c2;
+}
+.reinvent:hover{
+    color: #fff4ba;
+    text-decoration: none;
+}
 .slider .item {
     height: 50vh;
     position: relative;
