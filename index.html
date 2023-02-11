@@ -81,7 +81,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="img/r3.jpg" alt="">
+            <img src="img/r5.jpg" alt="">
             <div class="cover">
                 <div class="container">
                     <div class="header-content">
@@ -174,21 +174,7 @@
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <div class="search-text">
-        <div class="container">
-            <div class="row text-center">
-
-                <div class="form">
-                    <h4>SIGN UP TO OUR NEWSLETTER</h4>
-                    <form id="search-form" class="form-search form-horizontal">
-                        <input type="text" class="input-search" placeholder="Email Address">
-                        <button type="submit" class="btn-search">SUBMIT</button>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </div>
+ 
 
     <footer>
         <div class="container">
@@ -196,7 +182,41 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <span class="logo">LOGO</span>
                 </div>
+                <div class="fcf-body">
 
+                    <div id="fcf-form">
+                        <h3 class="fcf-h3">Contact us</h3>
+
+                        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+                            <div class="fcf-form-group">
+                                <label for="Name" class="fcf-label">Your name</label>
+                                <div class="fcf-input-group">
+                                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="fcf-form-group">
+                                <label for="Email" class="fcf-label">Your email address</label>
+                                <div class="fcf-input-group">
+                                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="fcf-form-group">
+                                <label for="Message" class="fcf-label">Your message</label>
+                                <div class="fcf-input-group">
+                                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="fcf-form-group">
+                                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="menu">
                         <span>Menu</span>
